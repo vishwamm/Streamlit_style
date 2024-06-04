@@ -2,4 +2,4 @@ Deployed the website in streamlit cloud
 
 style transfer and streamlit
 
-Link:    https://appstyle-vjofryiofycn3hekbthkwg.streamlit.app/
+Link:    https://appstyle-vjofryiofycn3hekbthkwg.streamlit.app/  (    currently inactive :)   )
