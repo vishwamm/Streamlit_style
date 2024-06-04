@@ -59,7 +59,7 @@ if img is not None and art is not None:
     style_image = load_img(art)
     if st.button("GENERATE"):
         import tensorflow_hub as hub
-        hub_model = hub.load('C:\\Users\\vishwa\\Desktop\\app\\model')
+        hub_model = hub.load('model')
         with st.spinner("Wait for a few seconds,creating art..."):
             stylized_image = hub_model(tf.constant(content_image), tf.constant(style_image))[0]
             stylized_image = stylized_image.numpy()
